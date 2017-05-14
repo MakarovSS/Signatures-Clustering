@@ -67,7 +67,7 @@ Contains template function queryToVariable, which is required to generalize quer
 
 * signature.h
 
-Describes Signature class, which describes the one biochemical experiment.
+Describes Signature class, which describes the parameters and response of one given biochemical experiment.
 
 * signatureCluster.h
 
