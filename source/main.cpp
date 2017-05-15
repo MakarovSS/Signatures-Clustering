@@ -52,15 +52,15 @@ int main() try
         printSignatureClusters(clusterList);
     }
     cout << "Running of application is completed\n";
-    return 1;
+    return 0;
 }
 catch (QString& exception)
 {
     cout << "Running of application is terminated because of the following exception:\n";
     cout << exception.toStdString() << "\n";
-    return 0;
+    return 1;
 }
 catch (std::bad_alloc& exception) {
     cout << "Application has run out of memory;\n";
-    return 0;
+    return 1;
 }
